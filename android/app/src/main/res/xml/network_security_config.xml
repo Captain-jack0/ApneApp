@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+  <base-config cleartextTrafficPermitted="true" />
+  <domain-config cleartextTrafficPermitted="true">
+    <!-- Sunucunuzun IP’sini veya domain’ini buraya yazın -->
+    <domain includeSubdomains="true">209.38.220.2</domain>
+  </domain-config>
+</network-security-config>

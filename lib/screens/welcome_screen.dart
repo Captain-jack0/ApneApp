@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:health_app/screens/history_live_screen.dart';
+import 'package:health_app/screens/live_data_screen.dart';
 
 import 'history_screen.dart';
 import 'profile_screen.dart';
@@ -91,7 +91,7 @@ class WelcomeScreen extends StatelessWidget {
                     onTap: () {
                       Navigator.of(context).push(
                         MaterialPageRoute(
-                            builder: (context) => const HistoryLiveScreen()),
+                            builder: (context) => LiveDataScreen()),
                       );
                     },
                   ),
