@@ -9,7 +9,7 @@ class WebSocketService {
   final void Function(SensorReading) onData;
 
   WebSocketService({required this.onData}) {
-    final host = '209.38.220.2';
+    final host = '139.59.128.31';
     final url = Uri.parse('ws://$host:3000/ws');
     print('⏳ WebSocket’e bağlanılıyor: $url');
 
