@@ -27,7 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: const BoxDecoration(
           gradient: LinearGradient(
-            colors: [Color(0xFFB2EBF2), Colors.white],
+            colors: [Color(0xFF0D47A1), Color(0xFF1976D2)], // gece mavi
             begin: Alignment.topCenter,
             end: Alignment.bottomCenter,
           ),
@@ -37,17 +37,27 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: const [
               Icon(
-                Icons.health_and_safety,
-                size: 100,
-                color: Colors.blueAccent,
+                Icons.monitor_heart_rounded,
+                size: 90,
+                color: Colors.white,
               ),
               SizedBox(height: 20),
               Text(
                 "ApneEkip",
                 style: TextStyle(
-                  fontSize: 32,
+                  fontSize: 34,
                   fontWeight: FontWeight.bold,
-                  color: Colors.blueAccent,
+                  color: Colors.white,
+                  letterSpacing: 1.5,
+                ),
+              ),
+              SizedBox(height: 10),
+              Text(
+                "Uyku Takip & Apne Analiz",
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white70,
+                  fontStyle: FontStyle.italic,
                 ),
               ),
             ],
